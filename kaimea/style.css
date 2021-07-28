@@ -1,0 +1,9 @@
+/* External CSS */
+body {
+  background-color: lightblue;
+}
+
+.doggyInTheWindow {
+  background-color: transparent;
+  background-image: url ("https://picsum.photos/id/237/800")
+}

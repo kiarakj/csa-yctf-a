@@ -1,0 +1,88 @@
+/* External CSS */
+/* Global styling  */
+body {
+  background-color: lightblue;
+  font-family: fantasy; /* google fonts */
+  color: #444444; /short hand is #444 */
+}
+address {
+  font-style: normal;
+  color: green;
+}
+a {
+  color: red;
+}
+h1 {
+  font-family: "Zen Tokyo Zoo", cursive;
+  background-color: #eee;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: cursive;
+}
+div {
+  background-color: pink;
+}
+/* 
+address {
+  color: pink;
+  backgroud-color: yellow;
+}
+p {
+  color: pink;
+}
+li {
+  color: pink;
+} */
+
+.displaynone {
+  display: none;
+  /* visibility: hidden; */
+}
+
+.addBorder {
+  border: 10px solid red;
+}
+
+/* class="addColorPink"is .addColorPink */
+.addColorPink {
+  color: pink;
+}
+.add-color-pink {
+  color: pink;
+}
+/* Call the class="customlink"       */
+/* When calling class use the period character -> .classname      */
+.customlink {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+/*  
+      why do we use class names?
+      how do we create a class name
+      */
+.colorUppercaseNounderline {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+
+.colorUppercaseNounderline,
+.customlink {
+  color: #8700fb;
+  text-transform: uppercase;
+  text-decoration: none; /* no underline */
+}
+
+/* CSS3 Media 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+*/
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
